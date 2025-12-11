@@ -1,5 +1,7 @@
 Allows to decrease holster delay of the minigun. In other words, decreased delay means that Heavy is able to deploy secondary/melee faster after spinning down.
 
+The default override value of 400ms is picked according to my personal taste but can be changed via a cvar.
+
 ```
 "sm_minigun_holster_delay_override_enabled" = "1" min. 0.000000 max. 1.000000
  - If enabled, the default minigun holster delay is replaced with the value of ''sm_minigun_holster_delay_override_value''
