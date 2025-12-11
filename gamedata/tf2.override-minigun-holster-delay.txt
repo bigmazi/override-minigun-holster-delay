@@ -1,0 +1,27 @@
+"Games"
+{
+	"tf"
+	{
+		"Functions"
+		{
+			// bool CTFMinigun::CanHolster( void ) const
+			"CTFMinigun::CanHolster"
+			{
+				"signature"		"CTFMinigun::CanHolster"
+				"callconv"		"thiscall"
+				"this"			"entity"
+				"return"		"bool"
+			}
+		}
+		
+		"Signatures"
+		{
+			"CTFMinigun::CanHolster"
+			{
+				"windows" "\x56\x57\x6A\x01\x6A\x00\x8B\xF1\x56\x68\x2A\x2A\x2A\x2A\x6A\x00\xE8\x2A\x2A\x2A\x2A\x83\xC4\x14\x8B\xCE\x8B\xF8"
+				"linux" "@_ZNK10CTFMinigun10CanHolsterEv"
+			}
+		}
+	}
+}
+
